@@ -1,0 +1,158 @@
+:root {
+    /* ----- COLORS ----- */
+    --very-ligth-pink: #C7C7C7;
+    --text-input-field: #010409;
+    --hospital-green: #ACD9B2;
+
+    /* ----- BACKGROUND COLOR ----- */
+    --bg: #010409;
+    --bg-navbar: #161B22;
+
+    /* ----- LABELS COLOR ----- */
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --label: #C9D1D9;
+
+    /* ----- COLORS BUTTON ----- */
+    --primary-button: #2EA043;
+    --secondary-button: #30363D;
+
+    /* ----- FONT SIZE ----- */
+    --sm: 12px;
+    --md: 15px;
+    --lg: 18px;
+    --big-lg: 25px;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.logo {
+    border-radius: 8px;
+    width: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 6px 12px;
+    background-color: var(--bg-navbar);
+}
+
+.navbar-left ul,
+.navbar-right ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-right ul {
+    margin-top: 10px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left ul {
+    margin-left: 12px;
+}
+
+.navbar-left ul li a {
+    margin-right: 8px;
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 8px;
+
+    font-size: 1.8rem;
+}
+
+.navbar-left ul li a:hover {
+    color: var(--label);
+}
+
+.navbar-email {
+    margin-right: 10px;
+    color: var(--label);
+
+    font-size: 1.8rem;
+}
+
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-dropdown:hover {
+    display: inline-block;
+}
+
+.nav-dropdown-content {
+    display: none;
+    position: absolute;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+    background-color: var(--bg);
+    padding: 12px 14px;
+    z-index: 1;
+}
+
+.nav-dropdown:hover .nav-dropdown-content {
+    display: block;
+}
+
+.nav-dropdown-content a {
+    display: inline-block;
+
+    color: var(--label);
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.nav-dropdown-content a:hover {
+    color: var(--white);
+}
+
+.shopping-cart {
+    position: relative;
+}
+
+.shopping-cart div {
+    position: absolute;
+    top: -6px;
+    right: -3px;
+    text-align: center;
+
+    border-radius: 50%;
+    background-color: var(--hospital-green);
+    width: 16px;
+    height: 16px;
+
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+@media (max-width: 640px) {
+    .menu-mobile {
+        display: block;
+    }
+
+    .navbar-left ul {
+        display: none;
+    }
+
+    .navbar-email {
+        display: none;
+    }
+}
+::placeholder { color: #747474; }

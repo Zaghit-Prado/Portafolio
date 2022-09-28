@@ -1,0 +1,134 @@
+:root {
+    /* ----- COLORS ----- */
+    --very-ligth-pink: #C7C7C7;
+    --text-input-field: #010409;
+    --hospital-green: #ACD9B2;
+
+    /* ----- BACKGROUND COLOR ----- */
+    --bg: #010409;
+    --bd-navbar: #161B22;
+
+    /* ----- LABELS COLOR ----- */
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --label: #C9D1D9;
+
+    /* ----- COLORS BUTTON ----- */
+    --primary-button: #2EA043;
+    --secondary-button: #30363D;
+
+    /* ----- FONT SIZE ----- */
+    --sm: 12px;
+    --md: 15px;
+    --lg: 18px;
+    --big-lg: 25px;
+}
+
+* {
+    margin: 0;
+
+    box-sizing: border-box;
+    color: var(--label);
+}
+
+body {
+    background: var(--bg);
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+
+    width: 100%;
+    height: 100vh;
+    margin-top: 32px;
+}
+
+.left {
+    width: 30%;
+    height: 100vh;
+}
+
+.left-container {
+    margin: 12px;
+
+    border-radius: 12px;
+    border: 1px solid var(--white);
+
+
+    box-shadow: 0 0 12px var(--white);
+}
+
+.left-image {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px 10px 0;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.title {
+    color: var(--white);
+    margin-bottom: 12px;
+
+    font-size: var(--big-lg);
+}
+
+.left-container>p {
+    font-size: var(--md);
+    margin-bottom: 32px;
+}
+
+.title,
+.left-container>p {
+    padding: 0 25px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.primary-button {
+    background-color: #0173ED;
+    border: none;
+    border-radius: 4px;
+    color: var(--white);
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 32px;
+
+    font-size: var(--md);
+    font-weight: bold;
+    padding: 0 16px;
+}
+
+.primary-button:hover {
+    background-color: #1f7ed6;
+}
+
+
+
+/* RIGHT CONTENT */
+
+.right {
+    width: 70%;
+    height: 100vh;
+}
+
+@media (max-width: 640px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 412px;
+    }
+
+}

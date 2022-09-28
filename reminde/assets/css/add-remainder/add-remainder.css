@@ -1,0 +1,142 @@
+:root {
+    --font-primary: 'DM Sans', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+
+    --bg-color: #010409;
+
+    --hospital-green: #ACD9B2;
+    --dark: #232830;
+    --label: #C9D1D9;
+    --very-ligth-pink: #C7C7C7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: white;
+
+    font-size: 2rem;
+    font-family: var(--font-primary);
+
+    width: 100%;
+    height: 100vh;
+}
+
+.login {
+    display: grid;
+    place-items: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.form-container {
+    display: grid;
+
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
+
+/* .form-container {
+    display: flex;
+    flex-direction: column;
+} */
+
+.form__text {
+    margin-bottom: 8px;
+    display: block;
+}
+
+.title {
+    text-align: start;
+    margin-bottom: 42px;
+    color: var(--white);
+
+    font-size: 2.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 4px;
+    color: var(--label);
+
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.input {
+    padding: 6px;
+
+    width: 100%;
+    height: 30px;
+    background-color: var(--dark);
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: var(--label);
+
+    font-size: 1.6rem;
+}
+
+::placeholder {
+    color: var(--label);
+}
+
+.country {
+    background-color: var(--text-input-field);
+    border-radius: 8px;
+    height: 30px;
+    margin-bottom: 24px;
+    color: var(--label);
+    border: none;
+
+    font-size: var(--md);
+}
+
+.primary-button {
+    background-color: var(--primary-button);
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+
+    font-size: var(--md);
+    font-weight: bold;
+}
+
+.primary-button:hover {
+    background-color: #42ce5b;
+}
+
+.login-button {
+    margin-top: 14px;
+    margin-bottom: 30px;
+}

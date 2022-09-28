@@ -1,0 +1,105 @@
+@import url(./base.css);
+
+.login {
+    display: grid;
+    place-items: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.form-container {
+    display: grid;
+
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
+
+.title {
+    text-align: start;
+    margin-bottom: 42px;
+    color: var(--white);
+
+    font-size: var(--lg);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form div {
+    display : flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 4px;
+    color: var(--label);
+
+    font-size: var(--md);
+    font-weight: bold;
+}
+
+.input {
+    padding: 6px;
+
+    background-color: var(--text-input-field);
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    margin-bottom: 24px;
+    color: var(--label);
+
+    font-size: var(--md);
+}
+
+::placeholder {
+    color: var(--label);
+}
+
+.country {
+    background-color: var(--text-input-field);
+    border-radius: 8px;
+    height: 30px;
+    margin-bottom: 24px;
+    color: var(--label);
+    border: none;
+
+    font-size: var(--md);
+}
+
+.primary-button {
+    background-color: var(--primary-button);
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+
+    font-size: var(--md);
+    font-weight: bold;
+}
+
+.primary-button:hover {
+    background-color: #42ce5b;
+}
+
+.login-button {
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 640px) {
+    .form-container
+    {
+        height: 100%;
+    }
+
+    .form
+    {
+        height: 100%;
+        justify-content: space-between;
+    }
+}

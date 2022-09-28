@@ -1,0 +1,302 @@
+:root {
+    --font-primary: 'DM Sans', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+
+    --bg-color: #010409;
+
+    --hospital-green: #ACD9B2;
+    --dark: #232830;
+    --label: #C9D1D9;
+    --very-ligth-pink: #C7C7C7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: white;
+
+    font-size: 2rem;
+    font-family: var(--font-primary);
+
+    width: 100%;
+    height: 100vh;
+}
+
+aside {
+    position: absolute;
+    left: 0;
+
+    background-color: #0d1117;
+
+    width: 25%;
+    height: 100%;
+}
+
+.money-info {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.money-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 5px 0;
+    width: 100px;
+    background-color: var(--dark);
+    border-radius: 12px;
+}
+
+.money-info__item--dollar {
+    font-size: 1.5rem;
+    color: var(--hospital-green);
+}
+
+.money-info__item--type {
+    color: var(--label);
+    font-size: 1.2rem;
+}
+
+.transactions {
+    width: 100%;
+    height: auto;
+
+    padding: 0 6px;
+    margin-bottom: 16px;
+}
+
+.transactions-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 0;
+    border-radius: 8px;
+    background-color: var(--dark);
+}
+
+.transactions__text {
+    margin-left: 4px;
+    color: white;
+}
+
+/* DROPMENU */
+.dropdown {
+    padding: 13px 30px;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dropdown #top {
+    color: #f0f0f0;
+    position: relative;
+}
+
+.dropdown__add-cards {
+    color: var(--very-ligth-pink);
+}
+
+.dropdown__add-cards:hover {
+    color: white;
+}
+
+.dropdown li ul li:hover {
+    color: #f0f0f0;
+    background-color: var(--bg-color);
+    /* padding: 13px 30px; */
+    width: 100%;
+    vertical-align: middle;
+    /* margin-left: -30px; */
+}
+
+.dropdown li ul li {
+    padding: 13px 30px;
+    width: 100%;
+    vertical-align: middle;
+    /* margin-left: -30px; */
+    color: #1E1E1E;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.dropdown li ul li:first-child {
+    margin-top: -13px;
+}
+
+.dropdown li .dropdown-box {
+    height: 0;
+    overflow: hidden;
+    display: none;
+    background-color: #f0f0f0;
+    width: 100%;
+    /* margin-left: -30px;
+    margin-bottom: -15px; */
+    margin-top: 13px;
+    border-top: 20px solid #1E1E1E;
+    padding: 0;
+    padding: 10px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.dropdown li:hover .dropdown-box,
+.dropdown li:active .dropdown-box {
+    display: block;
+    background-color: var(--dark);
+    animation: box 2s ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 100%;
+    }
+}
+
+.dropdown-box__item {
+    color: var(--very-ligth-pink);
+}
+
+.dropdown-box__item:hover {
+    color: white;
+}
+
+.dropdown-box__item--number:hover {
+    color: var(--hospital-green);
+}
+
+/* CARDS REMAINDER */
+.all-remainders {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    display: block;
+    text-align: start;
+
+    color: var(--white);
+    width: auto;
+    border-bottom: 1px solid var(--very-ligth-pink );
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+/* .pagos-a-vencer {
+    margin-top: 44px;
+} */
+
+.cards-container {
+    /*Generamos las Grid para las cards*/
+    display: grid;
+    /*auto-fill: que llene de cards la cantidad que quepe
+    240px : El tamaño de cada card*/
+    grid-template-columns: repeat(auto-fill, 200px); 
+    /*Para que haya un espacio entre cada card usamos: */
+    gap: 26px;
+    /*Aliniar todas las card en el centro*/
+    place-content: center;
+    
+    margin-top: 20px;
+}
+
+.remainder-card {
+    border: 1px solid var(--label);
+
+    width: 200px;
+    border-radius: 12px;
+    background: var(--dark);
+}
+
+.fecha {
+    text-align: center;
+    
+    padding: 6px;
+    border-bottom: 1px solid var(--label);
+    color: var(--white);
+
+    font-size: 1.8rem;
+}
+
+.remainder-info {
+    margin-top: 8px;
+}
+
+.remainder-info div p {
+    margin-top: 0;
+    margin-bottom: 4px;
+    padding: 0 4px;
+
+    font-size: 1rem;
+}
+
+.remainder-info div {
+    display: flex;
+    flex-direction: column;
+    margin-top: -8px;
+}
+
+.remainder-info div span {
+    padding: 4px 0 1px 4px;
+    font-size: 1.7rem;
+    color: var(--label);
+}
+
+.remainder-info div p:last-child {
+    border-top: 1px solid var(--label);
+    padding-top: 4px;
+    margin-top: 4px;
+
+    color: red;
+
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+main {
+    position: absolute;
+    right: 0;
+
+    width: 75%;
+}
+
+footer {
+    /* position: absolute;
+    bottom: 0; */
+
+    width: 100%;
+}

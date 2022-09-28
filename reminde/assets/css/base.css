@@ -1,0 +1,38 @@
+:root {
+    /* ----- COLORS ----- */
+    --very-ligth-pink : #C7C7C7;
+    --text-input-field : #010409;
+    --hospital-green : #ACD9B2;
+    
+    /* ----- BACKGROUND COLOR ----- */
+    --bg : #010409;
+    --bd-navbar: #161B22;
+
+    /* ----- LABELS COLOR ----- */
+    --white : #FFFFFF;
+    --black : #000000;
+    --dark : #232830;
+    --label : #C9D1D9;
+
+    /* ----- COLORS BUTTON ----- */
+    --primary-button: #2EA043;
+    --secondary-button: #30363D;
+
+    /* ----- FONT SIZE ----- */
+    --sm : 12px;
+    --md : 15px;
+    --lg : 18px;
+    --big-lg: 25px;
+}
+
+* {
+    color: var(--label);
+}
+
+body {
+    margin: 0;
+
+    background: var(--bg);
+
+    font-family: 'Quicksand', sans-serif;
+}
