@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Agenda_Actividades.Vista.Agenda.Listaagenda"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+            >
+    <Grid RowDefinitions="80,*"
+          BackgroundColor="#161b22"
+          >
+        <Label Text="AGENDA DE ACTIVIDADES"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="28"
+               FontAttributes="Bold"
+               TextColor="#c9d1d9"/>
+        <CollectionView BackgroundColor="#0d1117"
+                        Grid.Row="1"
+                       ItemsSource="{Binding Listaagenda}"
+                        Margin="0,0,0,0"
+                        x:Name="lista">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical"
+                                 Span="2"
+                                 HorizontalItemSpacing="10"
+                                 />
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid RowDefinitions="10,*"
+                  Margin="0,0,0,0">
+
+                        <Frame Grid.Row="1" WidthRequest="280"
+                       HorizontalOptions="Center"
+                       CornerRadius="15"
+                       Margin="10,0,10,0"
+                       BackgroundColor="#c0c0c0"
+                               HasShadow="False">
+                            <StackLayout
+                        Margin="0,150,0,0">
+
+                                <Label Text="{Binding Actividad}"
+                               CharacterSpacing="1"
+                                       HorizontalOptions="Center"
+                                FontAttributes="Bold"
+                               FontSize="17"
+                               Margin="0,0,0,0"
+                                       TextColor="#000"/>
+                                <StackLayout Orientation="Horizontal"  Margin="0">
+                                    <Button Text="{Binding Tiempo}"
+                                CornerRadius="10"
+                                HorizontalOptions="Start"
+                                TextTransform="None"
+                                HeightRequest="40"
+                                        FontAttributes="Bold"
+                                        FontSize="15"
+                                        Padding="0"
+                                        TextColor="#238636"
+                                            Margin="-2,0,0,0"
+                                BackgroundColor="#21262d"
+                                            Command="{Binding Path=BindingContext.Iradetallecommand,Source={x:Reference lista}}" CommandParameter="{Binding .}"/>
+
+
+                                    <Button Text="{Binding Fecha}"
+                                CornerRadius="10"
+                                HorizontalOptions="End"
+                                TextTransform="None"
+                                HeightRequest="40"
+                                            Padding="10,0,0,0"
+                                        Margin="0,0,0,0"    
+                                        FontAttributes="Bold"
+                                        FontSize="15"
+                                        TextColor="#238636"
+                                BackgroundColor="#21262d"
+                                            Command="{Binding Path=BindingContext.Iradetallecommand,Source={x:Reference lista}}" CommandParameter="{Binding .}"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                        <Image 
+                         Grid.RowSpan="2"
+                         HeightRequest="150"
+                         VerticalOptions="StartAndExpand"
+                               Margin="0,26,0,0"
+                               Source="{Binding Icono}"
+                               />
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Path=BindingContext.Iradetallecommand,Source={x:Reference lista}}" CommandParameter="{Binding .}"/>
+                        </Grid.GestureRecognizers>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+        <sh:Shadows CornerRadius="50" Shades="{sh:SingleShade 
+                Offset='0,10',
+                Opacity=0.5,
+                Color=#238636}"
+                    Grid.Row="1">
+            <Button Text="+"
+                Grid.Row="1"
+                HeightRequest="60"
+                WidthRequest="60"
+                VerticalOptions="End"
+                HorizontalOptions="End"
+                CornerRadius="40"
+                Margin="15,10,10,10"
+                FontSize="30"
+                FontAttributes="Bold"
+                BackgroundColor="#238636"
+                Command="{Binding Iraregistrocommand}"
+                    TextColor="#fff"/>
+        </sh:Shadows>
+    </Grid>
+</ContentPage>

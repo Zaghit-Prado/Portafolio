@@ -1,0 +1,15 @@
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\bin\Debug\netstandard2.0\Agenda_Actividades.deps.json
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\bin\Debug\netstandard2.0\Agenda_Actividades.dll
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\bin\Debug\netstandard2.0\Agenda_Actividades.pdb
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\obj\Debug\netstandard2.0\Agenda_Actividades.csproj.AssemblyReference.cache
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\obj\Debug\netstandard2.0\Agenda_Actividades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\obj\Debug\netstandard2.0\Vista\Agenda\Listaagenda.xaml.g.cs
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\obj\Debug\netstandard2.0\Vista\Agenda\Registraragenda.xaml.g.cs
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\obj\Debug\netstandard2.0\Agenda_Actividades.AssemblyInfoInputs.cache
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\obj\Debug\netstandard2.0\Agenda_Actividades.AssemblyInfo.cs
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\obj\Debug\netstandard2.0\Agenda_Actividades.csproj.CoreCompileInputs.cache
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\obj\Debug\netstandard2.0\Agenda_Actividades.dll
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\obj\Debug\netstandard2.0\refint\Agenda_Actividades.dll
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\obj\Debug\netstandard2.0\Agenda_Actividades.pdb
+D:\Senati\proyecto xamarin\TR\Agenda_Actividades\Agenda_Actividades\obj\Debug\netstandard2.0\ref\Agenda_Actividades.dll
