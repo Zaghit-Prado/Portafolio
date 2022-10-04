@@ -1,0 +1,34 @@
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\obj\Debug\escuela.csproj.AssemblyReference.cache
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\obj\Debug\escuela.csproj.SuggestedBindingRedirects.cache
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\obj\Debug\escuela.Properties.Resources.resources
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\obj\Debug\escuela.csproj.GenerateResource.cache
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\obj\Debug\escuela.csproj.CoreCompileInputs.cache
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\bin\Debug\escuela.exe.config
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\bin\Debug\escuela.exe
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\bin\Debug\escuela.pdb
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\obj\Debug\escuela.gui.frmlogin.resources
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\obj\Debug\escuela.exe
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\obj\Debug\escuela.pdb
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\obj\Debug\escuela.gui.CRUD.resources
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\obj\Debug\escuela.gui.CrudEstudiante.resources
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\obj\Debug\escuela.gui.CrudProfesores.resources
+C:\Users\Zaghit\3D Objects\visulaclaseO\escuela\obj\Debug\escuela.gui.fondo.resources
+C:\Users\Zaghit\Videos\trfinal\escuela\bin\Debug\escuela.exe.config
+C:\Users\Zaghit\Videos\trfinal\escuela\bin\Debug\escuela.exe
+C:\Users\Zaghit\Videos\trfinal\escuela\bin\Debug\escuela.pdb
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.csproj.AssemblyReference.cache
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.csproj.SuggestedBindingRedirects.cache
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.gui.CRUD.resources
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.gui.CrudEstudiante.resources
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.gui.CrudProfesores.resources
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.gui.fondo.resources
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.gui.frmlogin.resources
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.Properties.Resources.resources
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.csproj.GenerateResource.cache
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.csproj.CoreCompileInputs.cache
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.exe
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.pdb
+C:\Users\Zaghit\Videos\trfinal\escuela\bin\Debug\escuela.exe.manifest
+C:\Users\Zaghit\Videos\trfinal\escuela\bin\Debug\escuela.application
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.exe.manifest
+C:\Users\Zaghit\Videos\trfinal\escuela\obj\Debug\escuela.application
